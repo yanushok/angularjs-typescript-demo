@@ -21,7 +21,7 @@ angular
         this.dateTo = "2017-12-19";
 
         this.changeDates = () => {
-            console.log(`Date changed! - ${this.dateFrom} - ${this.dateTo}`);
+            alert(`Date changed! - ${this.dateFrom} - ${this.dateTo}`);
         }
     })
     .component("mcDates", new McDateComponent());
