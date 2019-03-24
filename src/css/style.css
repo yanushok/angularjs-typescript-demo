@@ -1,0 +1,52 @@
+html, body {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 50 auto;
+    justify-content: space-between;
+}
+
+.mc-dates {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    margin: 50px auto 0;
+    width: 400px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mc-dates .mc-dates__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.mc-dates .mc-dates__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.mc-dates .mc-dates__col span {
+    font-size: 0.75rem;
+}
+
+.mc-dates .mc-dates__button {
+    border: none;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    font-size: 0.75rem;
+}
+
+.mc-dates .mc-dates__button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.mc-dates .mc-dates__button:active {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) inset;
+}

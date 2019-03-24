@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.14/angular-material.css">
+    <script src="libs.min.js"></script>
+    <script src="bundle.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body ng-controller="MainCtrl as vm">
+    <mc-dates date-from="vm.dateFrom" date-to="vm.dateTo" mc-change="vm.changeDates()"></mc-dates>
+
+    <div class="container">
+        <md-input-container>
+            <label>Дата 1</label>
+            <input ng-model="vm.dateFrom">
+        </md-input-container>
+        <md-input-container>
+            <label>Дата 2</label>
+            <input ng-model="vm.dateTo">
+        </md-input-container>
+    </div>
+</body>
+
+</html>

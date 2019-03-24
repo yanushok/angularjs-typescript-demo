@@ -1,0 +1,19 @@
+<div class="mc-dates">
+    <div class="mc-dates__row">
+        <div class="mc-dates__col">
+            <span>С</span>
+            <md-datepicker ng-model="$ctrl._dateFrom" md-hide-icons="calendar" ng-change="$ctrl.changeDate()"></md-datepicker>
+        </div>
+        <div class="mc-dates__col">
+            <span>По</span>
+            <md-datepicker ng-model="$ctrl._dateTo" md-min-date="$ctrl.minDate" md-hide-icons="calendar" ng-change="$ctrl.changeDate()"></md-datepicker>
+        </div>
+    </div>
+    <div class="mc-dates__row">
+        <button class="mc-dates__button" ng-click="$ctrl.clickYesterday()">Вчера</button>
+        <button class="mc-dates__button" ng-click="$ctrl.clickToday()">Сегодня</button>
+        <button class="mc-dates__button" ng-click="$ctrl.clickTwoWeeks()">2 недели</button>
+        <button class="mc-dates__button" ng-click="$ctrl.clickMonth()">Месяц</button>
+        <button class="mc-dates__button" ng-click="$ctrl.clickAll()">Все</button>
+    </div>
+</div>

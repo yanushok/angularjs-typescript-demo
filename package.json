@@ -1,0 +1,32 @@
+{
+  "name": "angularjs-datepicker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp",
+    "watch": "npm run build -- -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-typescript": "^5.0.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.54",
+    "@types/angular-material": "^1.1.66",
+    "angular": "^1.6.10",
+    "angular-animate": "^1.6.10",
+    "angular-aria": "^1.6.10",
+    "angular-material": "^1.1.14",
+    "angular-messages": "^1.6.10",
+    "moment": "^2.24.0"
+  }
+}
